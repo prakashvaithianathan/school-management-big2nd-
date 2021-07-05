@@ -12,6 +12,6 @@ app.get('/', (req, res) =>{
     res.send('this is home route')
 })
 
-app.listen( process.env.PORT || 5000,()=>{
+app.listen( process.env.PORT,()=>{
     console.log('server has been started');
 })
